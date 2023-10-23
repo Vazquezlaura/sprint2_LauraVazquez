@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Astro entretenimiento</title>
+</head>
+
+<body>
+
+    <h1>ASTRO ENTRETENIMIENTO</h1>
+
+    <article>
+        <div class="contenedor">
+            <h2>
+                Descubre el Universo: Explora los Misterios Cósmicos y las Maravillas
+                del Espacio Exterior
+            </h2>
+            <h3>
+                Viaja con Nosotros a Través de las Estrellas, Planetas y Agujeros Negros
+                para Desvelar los Secretos del universo
+            </h3>
+        </div>
+    </article>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./Cuerpos celestiales/cuerpos.html"> Cuerpos Celestes</a></li>
+                <li><a href="./Estrellas/estrelas.html">Estrellas</a></li>
+                <li><a href="./via lactea/vialactea.html">Via Lactea</a></li>
+                <li><a href="./Luna/luna.html">Luna</a></li>
+                <li><a href="#Saber">Quiero saber más</a></li>
+                <!--Quise usar el truco de arrastrar y despues shift y no funciona-->
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slide">
+                <img src="./Imagenes/carrusel 1.webp" alt="Imagen 1">
+            </div>
+            <div class="slide">
+                <img src="./Imagenes/carrusel 2.png" alt="Imagen 2">
+            </div>
+            <div class="slide">
+                <img src="./Imagenes/carrusel 3.jpg" alt="Imagen 3">
+            </div>
+        </div>
+    </div>
+    <!--Use distinto tipo de paginas, videos y volvi a ver las clases pero no salio como yo esperaba, 
+        quise seguir desde el ultimo trabajo de sprint 1 pero mo se si deberia volver a crear una pagina
+    No me quiero frustrar, pero antes de dejar y la ultima entrga para saber. solo lo realice en una page-->
+    <section>
+        <img src="./Imagenes/estrellado segundo.jpg" alt="Estrellado" />
+
+        <div class="contenedor">
+            <p>
+                La astronomía es la ventana que nos permite mirar hacia el infinito y
+                más allá. Es una búsqueda incesante de respuestas a las preguntas más
+                profundas y fascinantes que el universo nos plantea. Desde la belleza
+                cautivadora de las estrellas titilantes en una noche despejada hasta los
+                secretos bien guardados de los agujeros negros y las galaxias distantes,
+                la astronomía es la exploración de lo desconocido.
+    </section>
+    <!--Trate de poner una imagen y un texto que de la explicacion de la imagen-->
+    </p>
+    </div>
+    <section>
+        <img src="./Imagenes/planetas.jpg" alt="Planetas" />
+        <div class="contenedor">
+            <p> Es un viaje que nos lleva a descubrir mundos lejanos, a
+                comprender los misterios de la vida en la Tierra a través del estudio de otros planetas y contemplar la
+                posibilidad de vida más allá de nuestro pequeño rincón cósmico. En la astronomía, las estrellas son
+                nuestras
+                guías, los planetas nuestros vecinos y las galaxias nuestros destinos. </p>
+        </div>
+
+
+        <section>
+            <img src="./Imagenes/observar estrellas.jpg" alt="explorar mas alla" />
+            <div class="contenedor">
+                <p>Pero la astronomía no se trata solo de observar. También implica descifrar los patrones en el cielo,
+                    comprender la física de las explosiones estelares y navegar por el tiempo y el espacio a través de
+                    la luz
+                    que viaja millones de años hasta llegar a nuestros telescopios. Cada descubrimiento en astronomía
+                    nos acerca
+                    un poco más a desvelar los secretos del cosmos ya comprender nuestro lugar en él.</p>
+        </section>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="contenedor">
+            <section>
+                <article id="Saber">
+                    <h3>Quiero saber más</h3>
+
+                    <p>Entonces, ¿estás listo para un emocionante viaje a través del espacio y el tiempo? Únete a
+                        nosotros
+                        mientras
+                        exploramos las maravillas del universo, donde cada estrella es una historia y cada galaxia es un
+                        mundo
+                        por
+                        descubrir. La astronomía te invita a alzar la vista y soñar en grande, porque el cosmos nunca
+                        deja de
+                        sorprendernos.</p>
+
+        </div>
+
+        </article>
+    </section>
+
+    <form>
+        <fieldset>
+            <legend>Unite a Nosotros y resolve tus dudas</legend>
+            <ul>
+                <li> <label for="Nombre">Nombre:</label></li>
+                <input type="text" name="nombre" id="user_nombre" />
+
+                <li><label for="Apellido">Apellido:</label></li>
+                <input type="text" name="Apellido" id="user_apellido" />
+
+                <li> <label for="Mail">Mail:</label></li>
+                <input type="email" name="Mail" id="user_mail" />
+
+                <li> <label for="area"></label> Consulta: </label></li>
+                <textarea name="area" id="area" cols="50"></textarea>
+
+                <button type="submit"> Enviar </button>
+        </fieldset>
+    </form>
+
+
+
+    <footer>
+        <p>&copy; Astro entretenimiento</p>
+    </footer>
+</body>
+<!--utilice elemento header para los que son los link para salto de pagina y div para agrupar los parrafafos -->
+<!-- y en vialactea.html no se porque footer queda anclado con el parrafo :__ 
+Asi que si se puede corregir o puedo empezar otra index desde cero obviamente respetanto el boceto inicial-->
+
+</html>
